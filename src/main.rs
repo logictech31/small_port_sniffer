@@ -7,7 +7,6 @@ use std::{env,
     io::{self, Write},
 };
 
-
 struct Arguments {
     flag: String,
     ip: IpAddr, // this is an enum IP4 and IP6
